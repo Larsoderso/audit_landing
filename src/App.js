@@ -281,6 +281,14 @@ export default function App() {
           </defs>
         </svg>
       </div>
+
+      <div
+        style={{
+          width: "100%",
+          height: 220,
+          background: "white"
+        }}
+      ></div>
     </div>
   );
 }
