@@ -124,7 +124,7 @@ export default function App() {
         }}
       >
         <svg
-          style={{ position: "absolute", left: "2vw", top: "8px" }}
+          style={{ position: "absolute", left: "2vw", top: "11px" }}
           width={113}
           height={41}
           viewBox="0 0 113 41"
