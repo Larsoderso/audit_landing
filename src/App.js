@@ -7,7 +7,7 @@ export default function App() {
       <div
         style={{
           width: "100%",
-          height: "65px",
+          height: "60px",
           background: "White",
           display: "flex",
           flexDirection: "row",
@@ -291,13 +291,218 @@ export default function App() {
         </svg>
       </div>
 
-      <div
-        style={{
-          width: "100%",
-          height: 220,
-          background: "white"
-        }}
-      ></div>
+      <footer className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <svg
+                width={113}
+                height={41}
+                viewBox="0 0 113 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M59.994 25.186h-4.682L54.332 28H52.15l4.566-12.086h1.884L63.173 28H60.98l-.987-2.814zM55.9 23.493h3.503l-1.751-5.014-1.752 5.014zm14.901 3.627c-.592.697-1.433 1.046-2.523 1.046-.974 0-1.713-.285-2.216-.855-.499-.57-.748-1.395-.748-2.474V19.02h2.017v5.794c0 1.14.474 1.71 1.42 1.71.98 0 1.64-.352 1.984-1.055v-6.45h2.017V28h-1.9l-.05-.88zm4.733-3.677c0-1.384.32-2.493.963-3.329.641-.84 1.502-1.262 2.581-1.262.952 0 1.721.333 2.308.997V15.25h2.017V28h-1.826l-.1-.93c-.603.73-1.408 1.096-2.415 1.096-1.052 0-1.904-.423-2.557-1.27-.648-.847-.971-1.998-.971-3.453zm2.017.174c0 .913.174 1.627.523 2.142.354.509.855.764 1.502.764.825 0 1.428-.369 1.81-1.104v-3.835c-.371-.72-.969-1.08-1.793-1.08-.653 0-1.157.26-1.511.78-.354.515-.531 1.293-.531 2.333zM88.759 28h-2.017v-8.981h2.017V28zm-2.142-11.314c0-.31.097-.567.29-.772.2-.205.482-.307.847-.307.366 0 .648.102.847.307.2.205.299.462.299.772 0 .304-.1.559-.299.764-.2.199-.481.299-.847.299-.365 0-.647-.1-.846-.3a1.068 1.068 0 01-.29-.763zm7.978.15v2.183h1.586v1.494h-1.586v5.013c0 .343.067.593.2.747.138.15.381.225.73.225.232 0 .468-.028.706-.083v1.56c-.46.127-.902.191-1.329.191-1.55 0-2.324-.855-2.324-2.565v-5.088h-1.477v-1.494h1.477v-2.184h2.017zM104.2 28c-.088-.172-.166-.451-.232-.838a3.14 3.14 0 01-2.358 1.004c-.902 0-1.638-.257-2.208-.772-.57-.515-.855-1.151-.855-1.91 0-.957.355-1.69 1.063-2.199.714-.515 1.732-.772 3.055-.772h1.236v-.59c0-.464-.13-.835-.39-1.111-.26-.283-.655-.424-1.187-.424-.459 0-.835.116-1.129.349-.293.227-.44.517-.44.871h-2.017c0-.492.164-.951.49-1.378.327-.431.77-.769 1.328-1.012a4.714 4.714 0 011.885-.366c1.051 0 1.889.266 2.515.797.625.526.946 1.268.963 2.225v4.05c0 .809.113 1.453.34 1.935V28H104.2zm-2.216-1.453c.398 0 .772-.096 1.121-.29.354-.194.619-.454.796-.78v-1.694h-1.087c-.747 0-1.309.13-1.685.39-.376.26-.564.628-.564 1.104 0 .388.127.698.381.93.26.227.606.34 1.038.34zM111.282 28h-2.017V15.25h2.017V28z"
+                  fill="#1E2A35"
+                />
+                <path d="M13.5 25L0 32V20l13-7 .5 12z" fill="#2297B5" />
+                <path
+                  d="M13.5 25L0 32l20.5 8.5V28l-7-3zM20.5 16l14-7.5L13 0v12.833L20.5 16z"
+                  fill="#20F442"
+                />
+                <path d="M13 13l.5 12 7 3V16L13 13z" fill="#30C1E6" />
+                <path d="M20.5 28V16L34 8.5V20l-13.5 8z" fill="#2297B5" />
+              </svg>
+            </a>
+            <p className="mt-2 text-sm text-gray-500">
+              Air plant banjo lyft occupy retro adaptogen indego
+            </p>
+          </div>
+          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                CATEGORIES
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                CATEGORIES
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                CATEGORIES
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                CATEGORIES
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div className="bg-gray-100">
+          <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p className="text-gray-500 text-sm text-center sm:text-left">
+              © 2020 Tailblocks —
+              <a
+                href="https://twitter.com/knyttneve"
+                rel="noopener noreferrer"
+                className="text-gray-600 ml-1"
+                target="_blank"
+              >
+                @knyttneve
+              </a>
+            </p>
+            <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a className="text-gray-500">
+                <svg
+                  fill="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                </svg>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <svg
+                  fill="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                </svg>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <rect width={20} height={20} x={2} y={2} rx={5} ry={5} />
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
+                </svg>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <svg
+                  fill="currentColor"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={0}
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="none"
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  />
+                  <circle cx={4} cy={4} r={2} stroke="none" />
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
